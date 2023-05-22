@@ -91,4 +91,46 @@ nav a:hover{
 }
 #produto .flex-container{
     margin-top: 43px;
+
+
+}
+#contato .flex-container{
+    margin-top: 43px;
+
+}
+form{
+    width: 380px;
+
+}
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+iframe{
+    width: 100%;
+}
+.app{
+    width: 162px; 
+    height: 48px;
+    color: transparent;   
+}
+.li-footer{
+    display: inline;
+    background-repeat: no-repeat;
+    padding-right: 27px;
+    margin-right: 10px;
+    background-position: center right;
+
+}
+.redes-sociais{
+    margin-left: 500px;
+    
+}
+.redes{
+    margin-right: 15px;
+    
 }
