@@ -7,6 +7,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+  
 }
 header{
     text-align: center;
@@ -55,8 +56,10 @@ nav a:hover{
     padding: 56px 0;
 }
 .flex-container{
-    display:flex ;
+    display:flex;
     justify-content: space-between;
+    flex-direction: row;
+    flex-flow: wrap;
 }
 .flex-container .col{
     width: 430px;
@@ -133,4 +136,64 @@ iframe{
 .redes{
     margin-right: 15px;
     
+}
+@media screen and (max-width: 580px) {
+    body{
+        
+        
+       
+     
+    }
+    nav a {
+        display:flex ;
+        flex-direction: column;
+        background-color: #91e467;
+        border: 2px solid white;
+        padding: 5px;
+      
+
+    }
+    nav li :hover{
+        color: chartreuse;
+        transform: scale(1.35);
+
+
+    }
+
+    .col{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 56px 0;
+        
+    }
+    .flex-container .col{
+        text-align: center;
+        margin-left: 50px;
+        
+       
+        
+    }
+    .btn-pata{
+        border: 1px solid #91e467;
+        background-color: #d2fbbd;  
+        text-decoration: none;
+        color: #000;
+        border-radius: 5px;
+        display: inline-block;
+        padding: 10px 20px;
+        margin-left: 50px;
+    
+    }
+    .produto{
+        margin-left: 140px;
+    }    
+    .redes-sociais{
+        margin-left: 10px;
+    }
+   
 }
